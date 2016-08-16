@@ -1,0 +1,31 @@
+/* When tabs are active*/
+.view.active{
+	height: 1200px;
+	visibility:initial;
+}
+
+/* When tabs are inactive*/
+.view{
+	visibility:hidden;
+	height: 0;
+
+}
+/* Tab formatting*/
+.tab{
+	
+	float: top;
+	position: relative;   
+	clear: both;
+	
+}
+/* Url input formatting*/
+#urlinput{
+	
+	width: 800px;
+}
+/* control panel formatting*/
+#urlbar{
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
